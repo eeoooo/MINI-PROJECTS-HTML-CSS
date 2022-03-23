@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: rgb(191, 211, 255);
+  display: flex;
+  justify-content: center;
+}
+.content {
+  margin: 10%;
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+img {
+  width: 50%;
+}
+.main-container {
+  width: 50%;
+  height: 95%;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
+  font-size: 1em;
+}
+.use-google {
+  background-color: transparent;
+  padding: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.use-google img {
+  width: 2em;
+  paddinf: 1em;
+}

@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background: rgb(191, 211, 255);
+  display: flex;
+  justify-content: center;
+}
+.content {
+  margin: 10%;
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+img {
+  width: 50%;
+}
+.main-container {
+  width: 50%;
+  height: 95%;
+  background-color: rgb(255, 255, 255);
+  padding: 0 5%;
+  font-size: 1em;
+}
+.use-google {
+  background-color: transparent;
+  margin-top: 20px;
+  width: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  border-radius: 5px;
+  border: 1px solid rgb(83, 138, 255);
+}
+.use-google img {
+  width: 1.5em;
+  margin: 1em;
+}
+.use-google span {
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

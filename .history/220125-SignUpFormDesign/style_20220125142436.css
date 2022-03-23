@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background: rgb(191, 211, 255);
+
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 40%;
+}
