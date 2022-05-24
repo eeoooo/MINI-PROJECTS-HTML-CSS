@@ -10,5 +10,6 @@ Mini Projects for practicing HTML&amp;CSS
   * Checked again
    - when making vertically aligned items to horizontally, he doesn't changed flex-direction. He used "inline-box"
    - To show user is online-mode, He make user profile in navigation bar to has color circle. And to implement that, he use another class and make it ":after"
+   - To make and align side-bars, he use "align-self: flex-start"
      
 
