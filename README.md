@@ -14,4 +14,4 @@ Mini Projects for practicing HTML&amp;CSS
    - set nav to sticky and sidebars to sticky. make navbar static to the top and sidebars go bottom of the navbar when they are scroll up " z-index: 100 "
    - " width: fit-content "
    - .imp-links a:last-child => access last item "last-child" in CSS !
-
+   - .event > .left-event css : "overflow:hidden", "box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.1);", text-align:center; <-> !have to compare the other center aligns
