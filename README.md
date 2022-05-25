@@ -17,3 +17,4 @@ Mini Projects for practicing HTML&amp;CSS
    - .event > .left-event css : "overflow:hidden", "box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.1);", text-align:center; <-> !have to compare the other center aligns
       : overflow:hidden: for the situation that span in .left-event get position:absolute and .left-event get position:relative, if overflow:hidden is coded then the parent item .left-event's border-radius get applied to it's descendent element span.
    -  "top: unset;"
+   -  to give gradient black cover , "linear-gradient(transparent, rgba(0, 0, 0, 0.5))"
