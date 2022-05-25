@@ -18,3 +18,4 @@ Mini Projects for practicing HTML&amp;CSS
       : overflow:hidden: for the situation that span in .left-event get position:absolute and .left-event get position:relative, if overflow:hidden is coded then the parent item .left-event's border-radius get applied to it's descendent element span.
    -  "top: unset;"
    -  to give gradient black cover , "linear-gradient(transparent, rgba(0, 0, 0, 0.5))"
+   -  "margin-bottom: -5px;" : It can be given a minus number to make the item go its oposite direction"
