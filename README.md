@@ -19,4 +19,4 @@ Mini Projects for practicing HTML&amp;CSS
    -  "top: unset;"
    -  to give gradient black cover , "linear-gradient(transparent, rgba(0, 0, 0, 0.5))"
    -  "margin-bottom: -5px;" : It can be given a minus number to make the item go its oposite direction"
-   -  "resize:none"
+   -  use "resize:none" for the textarea
