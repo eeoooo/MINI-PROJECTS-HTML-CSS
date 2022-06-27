@@ -17,7 +17,7 @@ Mini Projects for practicing HTML&amp;CSS
 ### [2] 220524 Social Media Website
 </br>
 
- ![image](https://user-images.githubusercontent.com/45444757/159655391-a0d37141-02bd-4456-a484-0fafb5194d6d.png)
+![image](https://user-images.githubusercontent.com/45444757/175859265-f03d7de9-7107-4485-ab89-fda24456154c.png)
 
 </br>
 
