@@ -14,6 +14,7 @@ Mini Projects for practicing HTML&amp;CSS
 </br>
 <hr>
 
+</br>
 ### [2] 220524 Social Media Website
 </br>
 
