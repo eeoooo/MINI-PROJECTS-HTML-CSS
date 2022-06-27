@@ -6,7 +6,8 @@ Mini Projects for practicing HTML&amp;CSS
 </br>
 
   - Refer to < https://www.youtube.com/watch?v=znqUwx0b0HI | How To Add Video Background In Website Using HTML And CSS Step By Step Tutorial >
-  - ![image](https://user-images.githubusercontent.com/45444757/159655391-a0d37141-02bd-4456-a484-0fafb5194d6d.png)
+ 
+ ![image](https://user-images.githubusercontent.com/45444757/159655391-a0d37141-02bd-4456-a484-0fafb5194d6d.png)
 
 
 </br>
@@ -16,7 +17,7 @@ Mini Projects for practicing HTML&amp;CSS
 ### [2] 220524 Social Media Website
 </br>
 
-<img src="https://user-images.githubusercontent.com/45444757/175859152-2450afe1-ab9c-4a5d-b4b1-e2dd627547a9.png" width:"80%">
+ ![image](https://user-images.githubusercontent.com/45444757/159655391-a0d37141-02bd-4456-a484-0fafb5194d6d.png)
 
 </br>
 
