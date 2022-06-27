@@ -27,6 +27,7 @@ Mini Projects for practicing HTML&amp;CSS
 #### 💥 되새길 개념들
 
 </br>
+
   * Refer to < https://www.youtube.com/watch?v=NljIHlZRTTE | How To Make A Website Like Facebook Using HTML And CSS | Social Media Website Design Step By Step >
   * Checked again
    - when making vertically aligned items to horizontally, he doesn't changed flex-direction. He used "inline-box"
