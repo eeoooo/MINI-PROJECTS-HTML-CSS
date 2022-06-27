@@ -31,7 +31,7 @@ Mini Projects for practicing HTML&amp;CSS
    -  "margin-bottom: -5px;" : It can be given a minus number to make the item go its oposite direction"
    -  use "resize:none" for the textarea
    -  "display: inline-flex;"
-   -  <hr> tag to make horizontal line
+   -  "<hr> tag" to make horizontal line
    -  "max-height:0;" to hide item
    -  can add(define) class name in css file only !
    -  ".classList.toggle()" from JS
