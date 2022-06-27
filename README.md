@@ -14,6 +14,11 @@ Mini Projects for practicing HTML&amp;CSS
 <hr>
 
 ### [2] 220524 Social Media Website
+</br>
+
+<img src="https://user-images.githubusercontent.com/45444757/175859152-2450afe1-ab9c-4a5d-b4b1-e2dd627547a9.png" width:"80%">
+
+</br>
 
 💥 되새길 개념들
 </br>
