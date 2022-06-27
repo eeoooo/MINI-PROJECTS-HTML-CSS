@@ -15,14 +15,17 @@ Mini Projects for practicing HTML&amp;CSS
 <hr>
 
 </br>
+
 ### [2] 220524 Social Media Website
+
 </br>
 
 ![image](https://user-images.githubusercontent.com/45444757/175859265-f03d7de9-7107-4485-ab89-fda24456154c.png)
 
 </br>
 
-💥 되새길 개념들
+#### 💥 되새길 개념들
+
 </br>
   * Refer to < https://www.youtube.com/watch?v=NljIHlZRTTE | How To Make A Website Like Facebook Using HTML And CSS | Social Media Website Design Step By Step >
   * Checked again
