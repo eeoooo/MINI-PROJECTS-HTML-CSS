@@ -93,9 +93,6 @@ buttonsJustifyContent.addEventListener('click', event => {
 buttonsAlignItem.addEventListener('click', event => {
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
-            case 'align-items-flex-strech':
-                container.style.alignItems = 'stretch';
-                break
             case 'align-items-flex-start':
                 container.style.alignItems = 'flex-start';
                 break

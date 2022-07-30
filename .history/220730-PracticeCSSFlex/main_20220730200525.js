@@ -93,20 +93,17 @@ buttonsJustifyContent.addEventListener('click', event => {
 buttonsAlignItem.addEventListener('click', event => {
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
-            case 'align-items-flex-strech':
-                container.style.alignItems = 'stretch';
+            case 'align-item-flex-start':
+                container.style.alignItem = 'flex-start';
                 break
-            case 'align-items-flex-start':
-                container.style.alignItems = 'flex-start';
+            case 'align-item-flex-end':
+                container.style.alignItem = 'flex-end';
                 break
-            case 'align-items-flex-end':
-                container.style.alignItems = 'flex-end';
+            case 'align-item-center':
+                container.style.alignItem = 'center';
                 break
-            case 'align-items-center':
-                container.style.alignItems = 'center';
-                break
-            case 'align-items-baseline':
-                container.style.alignItems = 'baseline';
+            case 'align-item-baseline':
+                container.style.alignItem = 'baseline';
                 break
     }
         setClicked(event.target);
