@@ -1,7 +1,14 @@
 let container = document.querySelector('.container');
 let boxes = document.querySelectorAll('.box');
 
-let buttonFlex = document.querySelector('.flexButton');
+let buttonFlex = document.querySelector('.flex');
+
+let buttonsFlexDirection = document.querySelector('.flex-directions');
+let buttonFlexDirectionRow = document.querySelector('.flex-direction-row');
+let buttonFlexDirectionColumn = document.querySelector('.flex-direction-column');
+let buttonFlexDirectionRowReverse = document.querySelector('.flex-direction-row-reverse');
+let buttonFlexDirectionColumnReverse = document.querySelector('.flex-direction-column-reverse');
+
 
 buttonFlex.addEventListener('click', ()=>{
     if( container.style.display == 'flex'){

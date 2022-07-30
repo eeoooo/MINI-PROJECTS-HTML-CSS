@@ -1,6 +1,5 @@
 .container {
-  width: 50%;
-  height: 50%;
+  //display: flex;
 }
 .box {
   width: 50px;
