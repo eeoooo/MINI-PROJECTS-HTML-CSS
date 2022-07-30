@@ -3,7 +3,6 @@ let boxes = document.querySelectorAll('.box');
 
 let buttonFlex = document.querySelector('.flexButton');
 
-let buttonsFlexDirection = document.querySelector('.flex-directions');
 
 buttonFlex.addEventListener('click', ()=>{
     if( container.style.display == 'flex'){

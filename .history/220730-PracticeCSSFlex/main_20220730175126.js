@@ -5,6 +5,7 @@ let buttonFlex = document.querySelector('.flexButton');
 
 let buttonsFlexDirection = document.querySelector('.flex-directions');
 
+container.style.display:'block'
 buttonFlex.addEventListener('click', ()=>{
     if( container.style.display == 'flex'){
         container.style.display = '';
