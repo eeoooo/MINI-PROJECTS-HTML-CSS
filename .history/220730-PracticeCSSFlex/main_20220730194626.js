@@ -5,8 +5,7 @@ let buttonFlex = document.querySelector('.flexButton');
 let buttonsFlexDirection = document.querySelector('.flex-directions');
 let buttonsFlexWrap = document.querySelector('.flex-wraps');
 let buttonsJustifyContent = document.querySelector('.justify-contents');
-
-
+console.dirt(buttonsJustofyContent);
 let clicked = ''
 function setClicked(clickedItem){
     if (clicked){
@@ -72,21 +71,13 @@ buttonsJustifyContent.addEventListener('click', event => {
             case 'justify-content-flex-start':
                 container.style.justifyContent = 'flex-start';
                 break
-            case 'justify-content-flex-end':
-                container.style.justifyContent = 'flex-end';
+            case 'flex-wrap-wrap':
+                container.style.flexWrap = 'wrap';
                 break
-            case 'justify-content-center':
-                container.style.justifyContent = 'center';
-            case 'justify-content-space-between':
-                container.style.justifyContent = 'space-between';
+            case 'flex-wrap-wrap-reverse':
+                container.style.flexWrap = 'wrap-reverse';
                 break
-            case 'justify-content-space-around':
-                container.style.justifyContent = 'space-around';
-                break
-            case 'justify-content-space-evenly':
-                container.style.justifyContent = 'space-evenly';
-                break
-    }
+        }
         setClicked(event.target);
     }
 })

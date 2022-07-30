@@ -77,7 +77,7 @@ buttonsJustifyContent.addEventListener('click', event => {
                 break
             case 'justify-content-center':
                 container.style.justifyContent = 'center';
-            case 'justify-content-space-between':
+            case 'justify-content-space-betwwen':
                 container.style.justifyContent = 'space-between';
                 break
             case 'justify-content-space-around':
@@ -86,6 +86,7 @@ buttonsJustifyContent.addEventListener('click', event => {
             case 'justify-content-space-evenly':
                 container.style.justifyContent = 'space-evenly';
                 break
+            break
     }
         setClicked(event.target);
     }

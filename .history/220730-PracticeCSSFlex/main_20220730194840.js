@@ -66,7 +66,6 @@ buttonsFlexWrap.addEventListener('click',(event)=>{
 })
 
 buttonsJustifyContent.addEventListener('click', event => {
-    console.dir(event.target);
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
             case 'justify-content-flex-start':
@@ -75,17 +74,15 @@ buttonsJustifyContent.addEventListener('click', event => {
             case 'justify-content-flex-end':
                 container.style.justifyContent = 'flex-end';
                 break
-            case 'justify-content-center':
-                container.style.justifyContent = 'center';
-            case 'justify-content-space-between':
-                container.style.justifyContent = 'space-between';
+            case 'justify-content-space-betwwen':
+                container.style.justifyContent = 'space-betwwen';
                 break
             case 'justify-content-space-around':
                 container.style.justifyContent = 'space-around';
-                break
+            break
             case 'justify-content-space-evenly':
                 container.style.justifyContent = 'space-evenly';
-                break
+            break
     }
         setClicked(event.target);
     }
