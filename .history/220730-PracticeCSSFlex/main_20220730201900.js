@@ -116,6 +116,9 @@ buttonsAlignItem.addEventListener('click', event => {
 })
 
 buttonsAlignContent.addEventListener('click', event => {
+    container.style.flexWrap = 'wrap';
+    console.dir(event.target);
+    console.dir(container.style.alignContent);
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
             case 'align-content-flex-strech':

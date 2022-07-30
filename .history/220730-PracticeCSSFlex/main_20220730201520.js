@@ -6,7 +6,7 @@ let buttonsFlexDirection = document.querySelector('.flex-directions');
 let buttonsFlexWrap = document.querySelector('.flex-wraps');
 let buttonsJustifyContent = document.querySelector('.justify-contents');
 let buttonsAlignItem = document.querySelector('.align-items');
-let buttonsAlignContent = document.querySelector('.align-contents');
+let buttonsAlignContent = document.querySelector('.align-content');
 
 let clicked = ''
 function setClicked(clickedItem){
@@ -111,35 +111,6 @@ buttonsAlignItem.addEventListener('click', event => {
                 container.style.alignItems = 'baseline';
                 break
     }
-        setClicked(event.target);
-    }
-})
-
-buttonsAlignContent.addEventListener('click', event => {
-    if (event.target.tagName == 'BUTTON'){
-        switch (event.target.attributes.class.value){
-            case 'align-content-flex-strech':
-                container.style.alignContent = 'stretch';
-                break
-            case 'align-content-flex-start':
-                container.style.alignContent = 'flex-start';
-                break
-            case 'align-content-flex-end':
-                container.style.alignContent = 'flex-end';
-                break
-            case 'align-content-center':
-                container.style.alignContent = 'center';
-                break
-            case 'align-content-space-between':
-                container.style.alignContent = 'space-between';
-                break
-            case 'align-content-space-around':
-                container.style.alignContent = 'space-around';
-                break
-            case 'align-content-space-evenly':
-                container.style.alignContent = 'space-evenly';
-                break
-        }
         setClicked(event.target);
     }
 })

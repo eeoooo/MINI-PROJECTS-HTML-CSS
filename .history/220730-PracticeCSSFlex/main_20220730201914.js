@@ -116,6 +116,8 @@ buttonsAlignItem.addEventListener('click', event => {
 })
 
 buttonsAlignContent.addEventListener('click', event => {
+    console.dir(event.target);
+    console.dir(container.style.alignContent);
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
             case 'align-content-flex-strech':

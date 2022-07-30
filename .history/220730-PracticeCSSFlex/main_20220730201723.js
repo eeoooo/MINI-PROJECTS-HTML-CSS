@@ -6,7 +6,7 @@ let buttonsFlexDirection = document.querySelector('.flex-directions');
 let buttonsFlexWrap = document.querySelector('.flex-wraps');
 let buttonsJustifyContent = document.querySelector('.justify-contents');
 let buttonsAlignItem = document.querySelector('.align-items');
-let buttonsAlignContent = document.querySelector('.align-contents');
+let buttonsAlignContent = document.querySelector('.align-content');
 
 let clicked = ''
 function setClicked(clickedItem){
@@ -116,6 +116,7 @@ buttonsAlignItem.addEventListener('click', event => {
 })
 
 buttonsAlignContent.addEventListener('click', event => {
+    console.dir(event.target)
     if (event.target.tagName == 'BUTTON'){
         switch (event.target.attributes.class.value){
             case 'align-content-flex-strech':
