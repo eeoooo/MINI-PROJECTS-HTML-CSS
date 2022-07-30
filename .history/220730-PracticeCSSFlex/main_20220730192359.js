@@ -42,7 +42,7 @@ buttonsFlexDirection.addEventListener('click', event => {
                 container.style.flexDirection = 'column-reverse';
                 break
         }
-        setClicked(event.target);
+        setClicked(buttonFlex);
     }
 })
 
@@ -59,6 +59,6 @@ buttonsFlexWrap.addEventListener('click',(event)=>{
                 container.style.flexWrap = 'wrap-reverse';
                 break
         }
-        setClicked(event.target);
+        setClicked(buttonFlex);
     }
 })

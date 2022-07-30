@@ -18,12 +18,11 @@ buttonFlex.addEventListener('click', ()=>{
     if( container.style.display == 'flex'){
         container.style.display = '';
         buttonFlex.textContent = 'display: flex';
-        setClicked(buttonFlex);
     } else if (container.style.display == ''){
         container.style.display = 'flex';
         buttonFlex.textContent = 'display: block';
-        setClicked(buttonFlex);
     }
+    setClicked(buttonFlex);
 })
 
 buttonsFlexDirection.addEventListener('click', event => {
@@ -42,8 +41,8 @@ buttonsFlexDirection.addEventListener('click', event => {
                 container.style.flexDirection = 'column-reverse';
                 break
         }
-        setClicked(event.target);
     }
+    setClicked(event.target);
 })
 
 buttonsFlexWrap.addEventListener('click',(event)=>{
@@ -59,6 +58,6 @@ buttonsFlexWrap.addEventListener('click',(event)=>{
                 container.style.flexWrap = 'wrap-reverse';
                 break
         }
-        setClicked(event.target);
     }
+    setClicked(event.target);
 })

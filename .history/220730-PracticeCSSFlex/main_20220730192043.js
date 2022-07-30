@@ -7,23 +7,20 @@ let buttonsFlexWrap = document.querySelector('.flex-wraps');
 
 let clicked = ''
 function setClicked(clickedItem){
-    if (clicked){
-        clicked.style.backgroundColor = '';}
+    clicked.style.backgroundColor = '';
     clickedItem.style.backgroundColor = 'lightBlue';
-    clickedItem.style.border = '1px solid gray';
-    clickedItem.style.borderRadius = '3px';
     clicked = clickedItem;
 }
+console.dir(container.style);
 buttonFlex.addEventListener('click', ()=>{
     if( container.style.display == 'flex'){
         container.style.display = '';
         buttonFlex.textContent = 'display: flex';
-        setClicked(buttonFlex);
     } else if (container.style.display == ''){
         container.style.display = 'flex';
         buttonFlex.textContent = 'display: block';
-        setClicked(buttonFlex);
     }
+    setClicked(buttonFlex);
 })
 
 buttonsFlexDirection.addEventListener('click', event => {
@@ -42,8 +39,8 @@ buttonsFlexDirection.addEventListener('click', event => {
                 container.style.flexDirection = 'column-reverse';
                 break
         }
-        setClicked(event.target);
     }
+    setClicked(event.target);
 })
 
 buttonsFlexWrap.addEventListener('click',(event)=>{
@@ -59,6 +56,6 @@ buttonsFlexWrap.addEventListener('click',(event)=>{
                 container.style.flexWrap = 'wrap-reverse';
                 break
         }
-        setClicked(event.target);
     }
+    setClicked(event.target);
 })
