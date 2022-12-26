@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-image: url("./netflix-img/images/header-image.png"),
+    linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7));
+  background-blen-mode: overlay;
+}
+.nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.languageSelect {
+  border: white solid 1px;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  padding: 0.5rem;
+}
+option {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+}
+.signUpBtn {
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 80%;
+  background-color: red;
+  border-radius: 5px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 50px;
+}
+.main h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  width: 40%;
+  margin: 10px;
+}
+.main h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  text-align: center;
+}
+.emailInput {
+  padding: 1rem;
+  margin: 0;
+  width: 300px;
+}
+.emailSubmitBtn {
+  margin: 0;
+  background-color: rgba(255, 0, 0, 1);
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.emailSubmitBtn:hover {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+.feature {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1 1;
+  padding: 3% 10%;
+  border-bottom: 3px solid rgb(70, 70, 70);
+}
+.feature img {
+  width: 500px;
+}
+.faq {
+  marign: 0;
+  padding: 0;
+  background-color: black;
+}
